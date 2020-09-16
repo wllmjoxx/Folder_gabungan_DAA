@@ -1,0 +1,21 @@
+Algoritma dalam pemesanan tiket bioskop pada aplikasi
+
+Step 1 deklarasi jumlah film = jmlh_film, nama film = nm_film, jumlah kursi = jmlh_kursi, user_choice_film, user_choice_kursi, payment_page
+Step 2 Memasukan jmlh_film = 1, nm_film = a(hanya tersedia 1 film), jmlh_kursi = 2(hanya tersedia 2 kursi lagi)
+Step 3 User memasukan nm_film = a, jmlh_kursi = 2
+Step 4 Jika nama film yang dipilih a dan membooking kursi 2 maka akan diteruskan ke pembayaran, jika > 2 maka akan kembali ke halaman awal
+
+Pseudocode:
+deklarasi
+var jmlh_film, nm_film, jmlh_kursi, user_choice_film, user_choice_kursi, payment_page
+jmlh_film ← 1
+nm_film = a
+jmlh_kursi ← 2
+user_choice_film = a
+user_choice_kursi = 4
+
+if
+((user_choice_kursi = 2) && (user_choice_film = a))
+    go to; payment_page
+else
+    return 0
